@@ -46,7 +46,7 @@ export default function Intro() {
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
         >
-          Desarrollador Web Full-Stack
+          Desarrollador de Software
         </motion.h1>
 
         <motion.p
@@ -54,13 +54,9 @@ export default function Intro() {
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
         >
-          Hola, soy Owen Vassarotto. Un apasionado{" "}
-          <span className="font-semibold">Desarrollador Web Full-Stack</span>{" "}
-          con especialización en el stack{" "}
-          <span className="font-semibold underline">MERN</span> y una sólida
-          formación académica en{" "}
-          <span className="font-semibold italic">programación de software</span>
-          .
+          Hola, soy Owen Vassarotto. Me especializo en{" "}
+          <i className="font-semibold">desarrollo web</i> y me
+          apasiona crear <i className="font-semibold">soluciones tecnológicas</i> que marcan la diferencia.
         </motion.p>
 
         <motion.div

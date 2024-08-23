@@ -5,6 +5,7 @@ import { GrCertificate } from "react-icons/gr";
 import img_kairacreaciones from "@/public/kairacreaciones.png";
 import img_tucamaestudiante from "@/public/tucamaestudiante.png";
 import img_nitidoimpresiones from "@/public/nitidoimpresiones.png";
+import img_clinicaabraham from "@/public/clinicaabraham.png";
 
 interface Experience {
   title: string;
@@ -75,6 +76,15 @@ export const experiencesData : Experience[] = [
 ];
 
 export const projectsData = [
+  {
+    title: "Sistema de Gestión de Turnos para Clínica",
+    description:
+      "La aplicación permite a los pacientes solicitar turnos en línea y a los administradores gestionarlos eficientemente.",
+    tags: ["Next.js", "TypeScript", "TailwindCSS", "Sentry", "Appwrite", "shadcn/ui"],
+    imageUrl: img_clinicaabraham,
+    liveDemoUrl: "https://sistema-turnos-clinica-abraham.vercel.app",
+    repoUrl: "https://github.com/owenvassarotto/sistema-turnos-clinica-abraham"
+  },
   {
     title: "Kaira Creaciones Web",
     description:

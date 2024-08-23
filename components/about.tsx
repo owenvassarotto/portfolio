@@ -3,6 +3,7 @@
 import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
+import { getAge } from "@/lib/utils";
 
 export default function About() {
   const { ref } = useSectionInView("Sobre Mí", 0.5);
@@ -18,25 +19,28 @@ export default function About() {
     >
       <SectionHeading>Sobre mí</SectionHeading>
       <p className="mb-3">
-        Soy un{" "}
+        Con {getAge(3, 11, 2000)} años, tengo una gran pasión por la tecnología
+        y la innovación. Disfruto enfrentar desafíos complejos y crear
+        soluciones de software eficientes y fáciles de usar. Me especializo en{" "}
+        <i className="font-semibold">desarrollo web</i> utilizando tecnologías
+        como{" "}
         <span className="font-semibold">
-          Técnico Universitario en Programación
+          React.js, Next.js, Node.js, MongoDB, MySQL,
         </span>{" "}
-        de 23 años con una gran pasión por la tecnología y la innovación.
-        Disfruto enfrentándome a desafíos complejos y creando soluciones de
-        software que son tanto eficientes como fáciles de usar. Me especializo
-        en el stack <span className="font-semibold underline">MERN</span> y
-        tengo experiencia con <span className="font-semibold">TypeScript</span>{" "}
-        y <span className="font-semibold">TailwindCSS</span> para desarrollar
-        interfaces modernas y responsivas.
+        entre otras. También tengo una sólida formación en{" "}
+        <span className="font-semibold">.NET</span> y{" "}
+        <span className="font-semibold">C#</span>, conocimientos que adquirí al
+        obtener el título de{" "}
+        <i className="font-semibold">Técnico Universitario en Programación</i>.
       </p>
       <p className="mb-3">
-        Además de mi formación técnica, me encanta aprender sobre nuevas
-        tecnologías y mejorar continuamente mis habilidades. Actualmente, estoy
-        perfeccionando mi nivel de inglés (B2) para alcanzar un dominio completo
-        del idioma. Me apasiona la idea de que el software puede mejorar la vida de las personas y me
-        esfuerzo por hacer una diferencia positiva a través de mi trabajo. Valoro profundamente el trabajo en equipo y estoy ansioso por colaborar
-        en proyectos innovadores. ¡Gracias por visitar mi portfolio!
+        Además de mi experiencia técnica, me apasiona el aprendizaje continuo y
+        la mejora constante. Actualmente, estoy perfeccionando mi inglés (nivel
+        B2) para alcanzar un dominio completo del idioma. Creo firmemente que el
+        software puede mejorar la vida de las personas y me esfuerzo por hacer
+        una diferencia positiva a través de mi trabajo. Valoro el trabajo en
+        equipo y estoy siempre dispuesto a colaborar en proyectos innovadores.
+        ¡Gracias por visitar mi portfolio!
       </p>
     </motion.section>
   );
