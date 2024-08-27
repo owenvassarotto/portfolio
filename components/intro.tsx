@@ -80,7 +80,7 @@ export default function Intro() {
           </Link>
 
           <a
-            href="/CV_Owen_Vassarotto.pdf"
+            href="/CV_Owen_Paulo_Vassarotto.pdf"
             className="group bg-white px-5 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 active:scale-105 transition borderBlack dark:bg-white/10 w-fit"
             target="_blank"
           >
