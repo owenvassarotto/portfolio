@@ -31,16 +31,12 @@ export default function About() {
         <span className="font-semibold">.NET</span> y{" "}
         <span className="font-semibold">C#</span>, conocimientos que adquirí al
         obtener el título de{" "}
-        <i className="font-semibold">Técnico Universitario en Programación</i>.
-      </p>
-      <p className="mb-3">
-        Además de mi experiencia técnica, me apasiona el aprendizaje continuo y
-        la mejora constante. Actualmente, estoy perfeccionando mi inglés (nivel
-        B2) para alcanzar un dominio completo del idioma. Creo firmemente que el
-        software puede mejorar la vida de las personas y me esfuerzo por hacer
-        una diferencia positiva a través de mi trabajo. Valoro el trabajo en
-        equipo y estoy siempre dispuesto a colaborar en proyectos innovadores.
-        ¡Gracias por visitar mi portfolio!
+        <i className="font-semibold">Técnico Universitario en Programación</i>{" "}
+        de la <i>Universidad Tecnológica Nacional</i>. Creo firmemente que el software
+        puede mejorar la vida de las personas y me esfuerzo por hacer una
+        diferencia positiva a través de mi trabajo. Valoro el trabajo en equipo
+        y estoy siempre dispuesto a colaborar en proyectos innovadores. ¡Gracias
+        por visitar mi portfolio!
       </p>
     </motion.section>
   );
